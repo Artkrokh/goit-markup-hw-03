@@ -38,7 +38,7 @@
   height: 80px;
   justify-content: space-around;
   align-items: center;
-  border-bottom: var(--header-line);
+  border-bottom: 1px solid var(--header-line);
 }
 .logo-title {
   color: var(--accent-color);
