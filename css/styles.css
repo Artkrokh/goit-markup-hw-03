@@ -138,18 +138,20 @@
   line-height: 1.714;
   color: var(--text-color);
 }
-.ocupation-list {
-  display: flex;
-  column-gap: 30px;
-  padding-bottom: 94px;
-  justify-content: center;
-}
 .ocupation-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  padding-top: 94px;
   text-align: center;
   color: var(--title-color);
+}
+.ocupation-list {
+  display: flex;
+  column-gap: 30px;
+  padding-top: 50px;
+  padding-bottom: 94px;
+  justify-content: center;
 }
 .team-conteiner {
   display: flex;
@@ -165,6 +167,7 @@
   font-size: 36px;
   line-height: 1.16;
   padding-top: 94px;
+  padding-bottom: 50px;
   text-align: center;
   color: var(--title-color);
 }
@@ -175,6 +178,7 @@
   justify-content: center;
 }
 .persona-cart {
+  height: 368px;
   background-color: #ffffff;
   border-radius: 4px;
   box-shadow: 0 2px 2px 0 #aaaaaa;
