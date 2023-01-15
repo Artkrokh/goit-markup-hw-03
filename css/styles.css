@@ -194,6 +194,12 @@
   color: var(--text-color);
   background-color: #ffffff;
 }
+.portfolio-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
 .portfolio-filtr-list {
   display: flex;
   column-gap: 8px;

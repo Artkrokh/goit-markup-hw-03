@@ -7,7 +7,7 @@
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    
+
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -17,32 +17,35 @@
   </head>
   <body class="body">
     <header class="header">
-      <nav class="nav">
-        <a href="./index.html" class="logo-title"
-          >Web<span class="logo-head">Studio</span></a
-        >
-        <ul class="nav-list">
-          <li class="nav-link">
-            <a class="nav-text" href="./index.html">Студія</a>
+      <div class="container header">
+        <nav class="nav">
+          <a href="./index.html" class="logo-title"
+            >Web<span class="logo-head">Studio</span></a
+          >
+          <!-- Links to other pages or sections of the current page -->
+          <ul class="nav-list">
+            <li class="nav-link">
+              <a class="nav-text current" href="./index.html">Студія</a>
+            </li>
+            <li class="nav-link">
+              <a class="nav-text" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="nav-link"><a class="nav-text" href="">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts">
+          <li class="contacts-link">
+            <a class="contacts-text" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li class="nav-link">
-            <a class="nav-text current" href="./portfolio.html">Портфоліо</a>
+          <li class="contacts-link">
+            <a class="contacts-text" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
-          <li class="nav-link"><a class="nav-text" href="">Контакти</a></li>
         </ul>
-      </nav>
-      <ul class="contacts">
-        <li class="contacts-link">
-          <a class="contacts-text" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="contacts-link">
-          <a class="contacts-text" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
       <!-- A link to an external resource will open in the current tab -->
     </header>
     <main class="portfolio">
@@ -64,118 +67,120 @@
         </li>
       </ul>
       <ul class="portfolio-project-list">
-        <li class="project-link">
-          <a class="project-item" href=""
-            ><img
-              src="./images/img.jpg"
-              alt="зображення проекту"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-title">Технокряк</h2>
-            <p class="project-text">Веб-сайт</p></a
-          >
-        </li>
-        <li class="project-link">
-          <a class="project-item" href=""
-            ><img
-              src="./images/img1.jpg"
-              alt="зображення проекту"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
-            <p class="project-text">Дизайн</p></a
-          >
-        </li>
-        <li class="project-link">
-          <a class="project-item" href=""
-            ><img
-              src="./images/img2.jpg"
-              alt="зображення проекту"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-title">Ресторан Seafood</h2>
-            <p class="project-text">Додаток</p></a
-          >
-        </li>
-        <li class="project-link">
-          <a class="project-item" href=""
-            ><img
-              src="./images/img3.jpg"
-              alt="зображення проекту"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-title">Проєкт Prime</h2>
-            <p class="project-text">Маркетинг</p></a
-          >
-        </li>
-        <li class="project-link">
-          <a class="project-item" href=""
-            ><img
-              src="./images/img4.jpg"
-              alt="зображення проекту"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-title">Проєкт Boxes</h2>
-            <p class="project-text">Додаток</p></a
-          >
-        </li>
-        <li class="project-link">
-          <a class="project-item" href=""
-            ><img
-              src="./images/img5.jpg"
-              alt="зображення проекту"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-title">Inspiration has no Borders</h2>
-            <p class="project-text">Веб-сайт</p></a
-          >
-        </li>
-        <li class="project-link">
-          <a class="project-item" href=""
-            ><img
-              src="./images/img6.jpg"
-              alt="зображення проекту"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-title">Видання Limited Edition</h2>
-            <p class="project-text">Дизайн</p></a
-          >
-        </li>
-        <li class="project-link">
-          <a class="project-item" href=""
-            ><img
-              src="./images/img7.jpg"
-              alt="зображення проекту"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-title">Проєкт LAB</h2>
-            <p class="project-text">Маркетинг</p></a
-          >
-        </li>
-        <li class="project-link">
-          <a class="project-item" href=""
-            ><img
-              src="./images/img8.jpg"
-              alt="зображення проекту"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-title">Growing Business</h2>
-            <p class="project-text">Додаток</p></a
-          >
-        </li>
+        <div class="portfolio-block">
+          <li class="project-link">
+            <a class="project-item" href=""
+              ><img
+                src="./images/img.jpg"
+                alt="зображення проекту"
+                width="370"
+                height="294"
+              />
+              <h2 class="project-title">Технокряк</h2>
+              <p class="project-text">Веб-сайт</p></a
+            >
+          </li>
+          <li class="project-link">
+            <a class="project-item" href=""
+              ><img
+                src="./images/img1.jpg"
+                alt="зображення проекту"
+                width="370"
+                height="294"
+              />
+              <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
+              <p class="project-text">Дизайн</p></a
+            >
+          </li>
+          <li class="project-link">
+            <a class="project-item" href=""
+              ><img
+                src="./images/img2.jpg"
+                alt="зображення проекту"
+                width="370"
+                height="294"
+              />
+              <h2 class="project-title">Ресторан Seafood</h2>
+              <p class="project-text">Додаток</p></a
+            >
+          </li>
+          <li class="project-link">
+            <a class="project-item" href=""
+              ><img
+                src="./images/img3.jpg"
+                alt="зображення проекту"
+                width="370"
+                height="294"
+              />
+              <h2 class="project-title">Проєкт Prime</h2>
+              <p class="project-text">Маркетинг</p></a
+            >
+          </li>
+          <li class="project-link">
+            <a class="project-item" href=""
+              ><img
+                src="./images/img4.jpg"
+                alt="зображення проекту"
+                width="370"
+                height="294"
+              />
+              <h2 class="project-title">Проєкт Boxes</h2>
+              <p class="project-text">Додаток</p></a
+            >
+          </li>
+          <li class="project-link">
+            <a class="project-item" href=""
+              ><img
+                src="./images/img5.jpg"
+                alt="зображення проекту"
+                width="370"
+                height="294"
+              />
+              <h2 class="project-title">Inspiration has no Borders</h2>
+              <p class="project-text">Веб-сайт</p></a
+            >
+          </li>
+          <li class="project-link">
+            <a class="project-item" href=""
+              ><img
+                src="./images/img6.jpg"
+                alt="зображення проекту"
+                width="370"
+                height="294"
+              />
+              <h2 class="project-title">Видання Limited Edition</h2>
+              <p class="project-text">Дизайн</p></a
+            >
+          </li>
+          <li class="project-link">
+            <a class="project-item" href=""
+              ><img
+                src="./images/img7.jpg"
+                alt="зображення проекту"
+                width="370"
+                height="294"
+              />
+              <h2 class="project-title">Проєкт LAB</h2>
+              <p class="project-text">Маркетинг</p></a
+            >
+          </li>
+          <li class="project-link">
+            <a class="project-item" href=""
+              ><img
+                src="./images/img8.jpg"
+                alt="зображення проекту"
+                width="370"
+                height="294"
+              />
+              <h2 class="project-title">Growing Business</h2>
+              <p class="project-text">Додаток</p></a
+            >
+          </li>
+        </div>
       </ul>
     </main>
     <footer class="footer">
-      <div class="footer-conteiner">
+      <div class="footer-conteiner conteiner">
         <a href="./index.html" class="logo-title"
           >Web<span class="logo-footer">Studio</span></a
         >
