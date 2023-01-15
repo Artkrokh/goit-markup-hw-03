@@ -9,6 +9,7 @@
   --background-button: #f5f4fa;
   --background-team: #F5F4FA;
   --border-color: #EEEEEE;
+  --header-line: #ECECEC;
 }
 .nav-list,
 .contacts,
@@ -37,6 +38,7 @@
   height: 80px;
   justify-content: space-around;
   align-items: center;
+  border-bottom: var(--header-line);
 }
 .logo-title {
   color: var(--accent-color);
