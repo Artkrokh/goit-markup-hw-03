@@ -169,6 +169,9 @@
   text-align: center;
   justify-content: center;
 }
+.persona-cart {
+  background-color: #ffffff;
+}
 .personal-title {
   font-weight: 500;
   font-size: 16px;
