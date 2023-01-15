@@ -175,7 +175,7 @@
 .persona-cart {
   background-color: #ffffff;
   border-radius: 4px;
-  box-shadow: #212121;
+  box-shadow: 0 1px 0 0 #757575;
 }
 .personal-title {
   font-weight: 500;
