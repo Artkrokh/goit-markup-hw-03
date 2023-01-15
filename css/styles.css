@@ -28,6 +28,9 @@
   color: var(--title-color);
   background-color: var(--background-color);
 }
+.conteiner {
+  width: 1200px;
+}
 .header {
   display: flex;
   height: 80px;
