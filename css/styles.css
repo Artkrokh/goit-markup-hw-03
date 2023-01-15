@@ -20,9 +20,6 @@
 .location-link {
   list-style: none;
 }
-.conteiner {
-  width: 1600px;
-}
 .body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -147,6 +144,10 @@
   text-align: center;
   color: var(--title-color);
 }
+.team-conteiner {
+  display: flex;
+  flex-direction: column;
+}
 .team {
   height: 648px;
   background: var(--background-team);
@@ -238,12 +239,19 @@
 .footer {
   display: flex;
   display: block;
-  height: 252px;
   line-height: 1.17;
   background: var(--fon-color);
 }
+.footer-conteiner {
+  display: flex;
+  height: 252px;
+  margin: auto 215px;
+  justify-content: center;
+  flex-direction: column;
+}
 .address {
-  margin-left: 215ps;
+  margin-top: 20px;
+  line-height: 1.714;
 }
 .address-text {
   text-decoration: none;
