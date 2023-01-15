@@ -203,13 +203,10 @@
   display: flex;
   padding-top: 34px;
   flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  column-gap: 30px;
   width: 1170px;
   height: 1360px;
-  padding-bottom: 94px;
-  margin: auto;
+  justify-content: space-between;
+  align-content: space-around;
 }
 .portfolio-filtr-list {
   display: flex;
