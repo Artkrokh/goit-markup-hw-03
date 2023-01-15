@@ -194,11 +194,20 @@
   color: var(--text-color);
   background-color: #ffffff;
 }
+.main-portfolio {
+  display: block;
+  padding: 94px;
+}
 .portfolio-block {
   display: flex;
+  padding-top: 34px;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
+  column-gap: 30px;
+  width: 1170px;
+  padding-bottom: 94px;
+  margin: auto;
 }
 .portfolio-filtr-list {
   display: flex;
