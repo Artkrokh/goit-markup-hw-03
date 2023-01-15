@@ -20,6 +20,9 @@
 .location-link {
   list-style: none;
 }
+.conteiner {
+  weight: 1200px;
+}
 .body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
