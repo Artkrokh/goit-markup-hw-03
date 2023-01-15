@@ -110,12 +110,13 @@
   border-radius: 4px;
   display: block;
 }
-.specifics-caption {
-  display:none;
-}
 .specifics {
   display: flex;
   justify-content: center;
+  padding-top: 94px;
+}
+.specifics-caption {
+  display:none;
 }
 .specifics-list {
   display: flex;
@@ -196,8 +197,10 @@
   background-color: #ffffff;
 }
 .main-portfolio {
-  display: block;
+  display: flex;
   padding: 94px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .portfolio-block {
   display: flex;
