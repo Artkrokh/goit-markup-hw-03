@@ -216,10 +216,8 @@
 }
 .main-portfolio {
   width: 1200px;
-  padding: 0.15px;
+  padding: 0 15px;
   margin: 0 auto;
-}
-.portfolio {padding: 94px 0;
 }
 .portfolio-project-list {
   display: flex;
@@ -232,8 +230,8 @@
 }
 .portfolio-filtr-list {
   display: flex;
-  column-gap: 8px;
-  justify-content: center;
+  gap: 8px;
+  
 }
 .button-filtr {
   font-weight: 500;
