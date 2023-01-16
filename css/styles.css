@@ -215,9 +215,15 @@
   background-color: #ffffff;
 }
 .main-portfolio {
+  display: flex;
   width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
+  padding: 94px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.portfolio {
+  display: flex;
+  justify-content: center;
 }
 .portfolio-project-list {
   display: flex;
@@ -230,7 +236,8 @@
 }
 .portfolio-filtr-list {
   display: flex;
-  gap: 8px;
+  column-gap: 8px;
+  justify-content: center;
 }
 .button-filtr {
   font-weight: 500;
