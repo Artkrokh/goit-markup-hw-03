@@ -124,8 +124,7 @@
   display: flex;
   justify-content: center;
 }
-.specifics-caption {
-  display:none;
+.specifics-caption {position: absolute;white-space: nowrap;width: 1px; height: 1px;overflow: hidden;border: 0;padding: 0;clip: rect(0 0 0 0);clip-path: inset(50%);margin: -1px;
 }
 .specifics-list {
   display: flex;
@@ -300,9 +299,8 @@
   color: var(--accent-color);
 }
 .footer {
+  padding: 60px 0;
   background: var(--fon-color);
-}
-.footer-conteiner {
 }
 .address {
   margin-top: 20px;
