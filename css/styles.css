@@ -118,9 +118,11 @@
   display: block;
 }
 .specifics {
+  padding-top: 94px;
+}
+.specifics-container {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
 }
 .specifics-caption {
   display:none;
@@ -147,38 +149,42 @@
   margin-top: 10px;
   color: var(--text-color);
 }
+.ocupation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .ocupation-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  padding-top: 94px;
   text-align: center;
   color: var(--title-color);
 }
 .ocupation-list {
   display: flex;
-  column-gap: 30px;
-  padding-top: 50px;
-  padding-bottom: 94px;
-  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
 }
 .team-conteiner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 .team {
-  height: 648px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   background: var(--background-team);
+}
+.team-cart {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   text-align: center;
-  color: var(--title-color);
 }
 .team-list {
   display: flex;
@@ -186,9 +192,9 @@
   text-align: center;
   justify-content: center;
 }
-.persona-cart {
+.personal-link {
   height: 368px;
-  background-color: #ffffff;
+  background-color: var(--background-color);
   border-radius: 4px;
   box-shadow: 0 2px 2px 0 #aaaaaa;
 }
@@ -196,12 +202,14 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  margin: 0;
   color: var(--title-color);
 }
 .personal-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
+  margin-top: 10px;
   color: var(--text-color);
 }
 .contacts-link {
@@ -292,18 +300,9 @@
   color: var(--accent-color);
 }
 .footer {
-  display: flex;
-  display: block;
-  line-height: 1.17;
   background: var(--fon-color);
 }
 .footer-conteiner {
-  display: flex;
-  height: 252px;
-  margin: 0 auto;
-  padding: 0 15px;
-  justify-content: center;
-  flex-direction: column;
 }
 .address {
   padding-top: 20px;
