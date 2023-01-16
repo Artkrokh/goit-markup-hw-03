@@ -29,7 +29,6 @@
   letter-spacing: 0.03em;
   color: var(--title-color);
   background-color: var(--background-color);
-  width: fit-content;
 }
 .conteiner {
   width: 1200px;
@@ -294,7 +293,8 @@
 .footer-conteiner {
   display: flex;
   height: 252px;
-  margin: auto 215px;
+  margin: 0 auto;
+  padding: 0 15px;
   justify-content: center;
   flex-direction: column;
 }
