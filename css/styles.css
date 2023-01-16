@@ -231,6 +231,7 @@
 .portfolio-filtr-list {
   display: flex;
   gap: 8px;
+  justify-content: center;
 }
 .button-filtr {
   font-weight: 500;
