@@ -224,12 +224,9 @@
 }
 .portfolio-project-list {
   display: flex;
-  padding-top: 34px;
+  margin-top: 50px;
   flex-wrap: wrap;
-  width: 1170px;
-  height: 1360px;
-  justify-content: space-between;
-  align-content: space-around;
+  
 }
 .portfolio-filtr-list {
   display: flex;
