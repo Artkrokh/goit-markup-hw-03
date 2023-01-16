@@ -214,16 +214,13 @@
   color: var(--text-color);
   background-color: #ffffff;
 }
-.main-portfolio {
-  display: flex;
-  width: 1200px;
-  padding: 94px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 .portfolio {
-  display: flex;
-  justify-content: center;
+  padding: 94px 0;
+}
+.main-portfolio {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .portfolio-project-list {
   display: flex;
@@ -236,8 +233,7 @@
 }
 .portfolio-filtr-list {
   display: flex;
-  column-gap: 8px;
-  justify-content: center;
+  gap: 8px;
 }
 .button-filtr {
   font-weight: 500;
