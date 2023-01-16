@@ -215,15 +215,10 @@
   background-color: #ffffff;
 }
 .main-portfolio {
-  display: flex;
   width: 1200px;
-  padding: 94px;
-  flex-wrap: wrap;
-  justify-content: center;
+  padding: 0.15px;
 }
-.portfolio {
-  display: flex;
-  justify-content: center;
+.portfolio {padding: 94px 0;
 }
 .portfolio-project-list {
   display: flex;
