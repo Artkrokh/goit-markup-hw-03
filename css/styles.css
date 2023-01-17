@@ -245,6 +245,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  margin-bottom: 4px;
   color: var(--title-color);
 }
 .project-text {
@@ -298,12 +299,18 @@
   line-height: 1.7;
   color: var(--addres-text);
 }
-.address-link :hover,
-.address-link :focus {
+.address-text:hover,
+.address-text:focus {
   color: var(--accent-color);
 }
 .portfolio-filtr-link :hover,
 .portfolio-filtr-link :focus {
   color: var(--hero-color);
   background-color: var(--accent-color);
+}
+.address-link {
+  margin-top: 9px;
+}
+.address-link:first-child {
+  margin: 0;
 }
